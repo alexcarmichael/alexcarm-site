@@ -10,13 +10,8 @@ const App = () => {
   return (
     <div className='App'>
       <Header />
-      <main
-        style={{
-          background: '#f6f6f6',
-          padding: '2rem',
-          borderRadius: '32px'
-        }}>
-        <div style={{ fontSize: '1.5rem' }}>
+      <main>
+        <div>
           <Title level={3}>Hi, I'm Alex.</Title>
           <p>
             I'm a web developer and media professional from Atlanta, passionate
@@ -52,6 +47,8 @@ const App = () => {
             eating too much pasta in one sitting.
           </p>
         </div>
+      </main>
+      <footer>
         <Row style={{ textAlign: 'center' }}>
           <Col span={8}>
             <Button
@@ -60,7 +57,7 @@ const App = () => {
               href='http://linkedin.com/in/alex-carm'
               alt="Alex's LinkedIn"
               target='_blank'
-              style={{ background: 'transparent' }}>
+              className='btn-transparent'>
               LinkedIn
             </Button>
           </Col>
@@ -71,7 +68,7 @@ const App = () => {
               href='https://twitter.com/alex_carm_'
               alt="Alex's Twitter"
               target='_blank'
-              style={{ background: 'transparent' }}>
+              className='btn-transparent'>
               Twitter
             </Button>
           </Col>
@@ -82,12 +79,12 @@ const App = () => {
               href='http://github.com/alexcarmichael'
               alt="Alex's GitHub"
               target='_blank'
-              style={{ background: 'transparent' }}>
+              className='btn-transparent'>
               GitHub
             </Button>
           </Col>
         </Row>
-      </main>
+      </footer>
     </div>
   );
 };
