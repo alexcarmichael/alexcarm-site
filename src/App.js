@@ -8,14 +8,14 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className='App'>
-      <Router>
+    <Router>
+      <div className='App'>
         <Switch>
-          <Route exact path='/' component={HomePage}></Route>
+          <Route exact path='/' component={HomePage} />
           <Route path='/projects' component={Projects} />
         </Switch>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 };
 
