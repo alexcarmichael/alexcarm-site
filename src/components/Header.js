@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, Button, Row } from 'antd';
+import { Avatar, Button } from 'antd';
 import { StarFilled } from '@ant-design/icons';
 import alex from '../images/alex-avatar.jpg';
 
