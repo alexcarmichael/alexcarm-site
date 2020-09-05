@@ -1,18 +1,7 @@
-@import url('https://use.typekit.net/pzd7gzg.css');
-@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
-
 body {
   max-width: 700px;
   margin: 0 auto;
   padding: 2rem;
-}
-
-main {
-  background: #f6f6f6;
-  padding: 2rem;
-  border-radius: 32px;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 header {
@@ -20,6 +9,10 @@ header {
   justify-content: center;
   align-items: center;
   padding: 20px 10%;
+}
+
+.projects-heading {
+  border-bottom: 4px solid #3db0f7;
 }
 
 .btn-transparent,

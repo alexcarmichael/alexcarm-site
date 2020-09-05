@@ -27,6 +27,6 @@ export const projectData = [
     description:
       'Website and video platform for a student-run television station built on Wordpress',
     content:
-      'The Georgia State NeoNetwork, also known as NEON, is a student-run group which produces content covering campus sports, news, and high quality short films.',
+      'The Georgia State NeoNetwork, also known as NEON, is a student-run group which produces content covering campus sports, news, and high quality short films. Their new website allows students easy access to all of their video content in one central location!',
   },
 ];

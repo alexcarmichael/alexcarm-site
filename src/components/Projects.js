@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Skeleton, List, Avatar, Typography } from 'antd';
-
-import { Header } from './Header';
 import { projectData } from '../data/ProjectData';
+import Layout from './Layout';
 
 const { Title } = Typography;
 
@@ -23,11 +22,8 @@ export const Projects = () => {
 
   return (
     <>
-      <Header cta={{ title: 'Home', route: '/' }} />
-      <Title style={{ borderBottom: '4px solid #3DB0F7' }}>
-        {' '}
-        Recent Projects
-      </Title>
+      <Layout title='Home' route='/' header={true} footer={false} />
+      <Title className='projects-heading'>Recent Projects</Title>
       <List
         itemLayout='vertical'
         size='large'
@@ -49,6 +45,7 @@ export const Projects = () => {
           </List.Item>
         )}
       />
+      <Layout />
     </>
   );
 };
