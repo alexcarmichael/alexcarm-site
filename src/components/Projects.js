@@ -13,6 +13,7 @@ export const Projects = () => {
     setTimeout(() => {
       setLoading(false);
     }, 1400);
+    clearTimeout();
     onChange();
   }, []);
 
@@ -22,7 +23,7 @@ export const Projects = () => {
 
   return (
     <>
-      <Header />
+      <Header cta={{ title: 'Home', route: '/' }} />
       <Title style={{ borderBottom: '4px solid #3DB0F7' }}>
         {' '}
         Recent Projects

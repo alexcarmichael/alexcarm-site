@@ -6,7 +6,7 @@ import { Footer } from './Footer';
 export const Layout = (props) => {
   return (
     <div>
-      <Header />
+      <Header cta={{ title: 'Projects', route: '/projects' }} />
       {props.children}
       <Footer />
     </div>
